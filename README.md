@@ -1,0 +1,2 @@
+squid-autoproxy
+===============
