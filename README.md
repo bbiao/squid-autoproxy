@@ -10,6 +10,13 @@ It works for me. #fuckgfw #fuckfbx
     python conv_gfwlist.py
     python conv_chnroutes.py -p squid
 
+### Optional: Deny advertisement servers
+    python conv_adservers.py
+
+#### With configure
+    http_access deny ads
+    deny_info TCP_RESET ads
+
 add following lines to your squid.conf
 
     prefer_direct on
